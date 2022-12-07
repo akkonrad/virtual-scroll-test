@@ -1,0 +1,5 @@
+<cdk-virtual-scroll-viewport appendOnly itemSize="12" class="viewport">
+  <div *cdkVirtualFor="let item of data" class="item">
+    <app-entry [entry]="item"></app-entry>
+  </div>
+</cdk-virtual-scroll-viewport>
